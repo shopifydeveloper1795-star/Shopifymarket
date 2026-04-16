@@ -178,23 +178,6 @@
       nav a {font-size:12px;}
     }
   </style>
-<script>
-function openPopup() {
-    document.getElementById("popup").style.display = "block";
-}
-
-function closePopup() {
-    document.getElementById("popup").style.display = "none";
-}
-
-/* Close when clicking outside */
-window.onclick = function(e) {
-    let popup = document.getElementById("popup");
-    if (e.target === popup) {
-        popup.style.display = "none";
-    }
-}
-</script>
 </head>
 <body>
   <header>
@@ -310,6 +293,24 @@ window.onclick = function(e) {
 
   </div>
 </div>
+ <script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+/* Close when clicking outside */
+window.onclick = function(e) {
+    let popup = document.getElementById("popup");
+    if (e.target === popup) {
+        popup.style.display = "none";
+    }
+}
+</script>
+
 </body>
 </html>
 
