@@ -173,13 +173,22 @@
 .popup-btn:hover {
     opacity: 0.8;
 }
-@media(max-width:768px) {
- .hero {
-  height: 35vh;
- }
- header h1 {font-size:22px;}
- nav a {font-size:12px;}
- }    
+@media (max-width: 768px) {
+
+  .hero {
+    height: 35vh; /* 35vh is too small, content may cut */
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0 5px; /* spacing for small screens */
+  }
+
+}
   </style>
 </head>
 <body>
